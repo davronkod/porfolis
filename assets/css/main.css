@@ -1,0 +1,1242 @@
+@font-face {
+    font-family: RedHatDisplay;
+    src: url(../fonts/RedHatDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: RedHatDisplay-Bold;
+    src: url(../fonts/RedHatDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: RedHatDisplay-Regular;
+    src: url(../fonts/RedHatDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.header_logo {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-family: RedHatDisplay;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.46px;
+    text-align: left;
+    color: darkgray;
+    margin-top: -35px;
+    margin-left: -50px;
+    transition: .5s;
+}
+
+.header_one_text:hover {
+    transition: .5s;
+    color: #000;
+    cursor: pointer;
+}
+
+.header_two_text:hover {
+    transition: .5s;
+    color: #000;
+    cursor: pointer;
+}
+
+.header_three_text:hover {
+    transition: .5s;
+    color: #000;
+    cursor: pointer;
+}
+
+.header_four_text:hover {
+    transition: .5s;
+    color: #000;
+    cursor: pointer;
+}
+
+.header_one_text {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header_btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 1100px;
+    margin-top: -40px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ffff;
+    border: none;
+    box-shadow: 0px 20px 50px 0px #C6B9E94D;
+    cursor: pointer;
+}
+
+.main_one_text {
+    margin-left: 200px;
+    margin-top: 150px;
+    font-family: RedHatDisplay;
+    color: rgb(97, 92, 92);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: RedHatDisplay-Bold;
+    font-size: 45px
+}
+
+.main_two_text {
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: RedHatDisplay-Regular;
+}
+
+.main_btn {
+    width: 150px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 40px;
+    font-family: RedHatDisplay;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.75px;
+    text-align: center;
+    background: #8643DC;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.main_btn:hover {
+    background-color: transparent;
+    transition: .5s;
+    color: #8643DC;
+    border: 1px solid #8643DC;
+}
+
+.bg {
+    width: 535px;
+    height: 622px;
+    margin-left: 650px;
+    margin-top: -350px;
+}
+
+.section_one_text {
+    width: 68px;
+    height: 24px;
+    font-family: RedHatDisplay-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.81px;
+    text-align: left;
+    color: #8643DC;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.hr {
+    width: 50px;
+    height: 2px;
+    background-color: #8643DC;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.big_text {
+    width: 246px;
+    height: 96px;
+    font-family: RedHatDisplay-Bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.63px;
+    text-align: left;
+}
+
+.logocha1 {
+    width: 62px;
+    height: 60.59px;
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+.section_two_text {
+    width: 139px;
+    height: 32px;
+    font-family: RedHatDisplay;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.75px;
+    text-align: left;
+    margin-left: 260px;
+    margin-top: -45px;
+}
+
+.section_three_text {
+    font-family: RedHatDisplay-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    width: 330px;
+    height: 111px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.logocha2 {
+    width: 62px;
+    height: 60.59px;
+    margin-left: 580px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+.section_four_text {
+    width: 147px;
+    height: 32px;
+    font-family: RedHatDisplay;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.75px;
+    text-align: left;
+    margin-left: 670px;
+    margin-top: -170px;
+}
+
+.section_five_text {
+    font-family: RedHatDisplay-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    width: 330px;
+    height: 111px;
+    margin-left: 580px;
+    margin-top: 30px;
+}
+
+.logocha3 {
+    width: 62px;
+    height: 60.59px;
+    margin-left: 980px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+.section_six_text {
+    width: 203px;
+    height: 32px;
+    font-family: RedHatDisplay;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.75px;
+    text-align: left;
+    margin-left: 1070px;
+    margin-top: -170px;
+}
+
+.section_seven_text {
+    font-family: RedHatDisplay-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    width: 330px;
+    height: 111px;
+    margin-left: 980px;
+    margin-top: 30px;
+}
+
+.section_1_element {
+    width: 1300px;
+    height: 722px;
+    background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
+    margin-top: 100px;
+}
+
+.text1 {
+    width: 70px;
+    height: 24px;
+    font-family: RedHatDisplay-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.81px;
+    text-align: left;
+    color: #8643DC;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.chiziq {
+    width: 50px;
+    height: 3px;
+    background: #8643DC;
+    margin-left: 100px;
+    margin-top: 130px;
+    position: absolute;
+}
+
+.eih1 {
+    width: 204px;
+    height: 96px;
+    font-family: RedHatDisplay-Bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.63px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.text2 {
+    width: 146px;
+    height: 32px;
+    font-family: RedHatDisplay;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.75px;
+    text-align: left;
+    margin-left: 1000px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.menus {
+    font-size: 5px;
+}
+
+.arrow {
+    width: 24px;
+    height: 24px;
+    color: #8643DC;
+    margin-left: 1150px;
+    margin-top: 155px;
+    cursor: pointer;
+}
+
+.kup1 {
+    width: 540px;
+    height: 427px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.chiziqcha {
+    width: 50px;
+    height: 2px;
+    background: #8643DC;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.sayti1 {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.ochpush {
+    width: 170px;
+    height: 170px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #FFE7F0;
+    box-shadow: #FFE7F0;
+    background-color: #fff3f8;
+    margin-left: 130px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.ochkuk {
+    width: 170px;
+    height: 170px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #DDF5FF;
+    box-shadow: #DDF5FF;
+    background-color: #DDF5FF;
+    margin-left: 550px;
+    margin-top: -170px;
+    cursor: pointer;
+}
+
+.ochyaash {
+    width: 170px;
+    height: 170px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #DBFFC3;
+    box-shadow: #DBFFC3;
+    background-color: #DBFFC3;
+    margin-left: 970px;
+    margin-top: -170px;
+    cursor: pointer;
+}
+
+.microsoft {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.microf {
+    width: 67px;
+    height: 24px;
+    font-family: RedHatDisplay;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.dere {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.shop {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.shops {
+    width: 67px;
+    height: 24px;
+    font-family: RedHatDisplay;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.section6 {
+    width: 1300px;
+    height: 910px;
+    background: linear-gradient(180deg, rgba(203, 163, 255, 0.2) 0%, rgba(197, 255, 176, 0.2) 100%);
+    margin-top: 200px;
+}
+
+.xirra3 {
+    margin-left: 1030px;
+    position: absolute;
+    margin-top: 350px;
+}
+
+.sas {
+    width: 50px;
+    height: 2px;
+    background-color: #8643DC;
+    margin-left: 155px;
+    position: absolute;
+    margin-top: 140px;
+}
+
+.boldas {
+    width: 217px;
+    height: 96px;
+    font-family: RedHatDisplay-Bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.63px;
+    text-align: left;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 160px;
+}
+
+.abc {
+    margin-left: 920px;
+    margin-top: 700px;
+    position: absolute;
+}
+
+.xirra {
+    margin-left: 300px;
+    position: absolute;
+    margin-top: 700px;
+}
+
+.blog {
+    width: 37px;
+    height: 24px;
+    font-family: RedHatDisplay-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.81px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: #8643DC;
+}
+
+.reg1 {
+    width: 165px;
+    height: 96px;
+    font-family: RedHatDisplay-Bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.63px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.utir {
+    width: 350px;
+    height: 233px;
+    margin-left: 300px;
+    margin-top: -140px;
+}
+
+.sana {
+    width: 107px;
+    height: 21px;
+    font-family: RedHatDisplay;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.17px;
+    text-align: left;
+    color: #8643DC;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+.uzuns {
+    width: 350px;
+    height: 47px;
+    font-family: RedHatDisplay-Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.46px;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+.saroy {
+    width: 255px;
+    height: 350px;
+    margin-left: 700px;
+    margin-top: -400px;
+}
+
+.short {
+    width: 197px;
+    height: 72px;
+    font-family: RedHatDisplay-Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.46px;
+    text-align: left;
+    margin-left: 720px;
+    margin-top: 5px;
+    color: #ffff;
+}
+
+.odam2 {
+    margin-left: 1000px;
+    margin-top: -332px;
+}
+
+.sana2 {
+    width: 107px;
+    height: 21px;
+    font-family: RedHatDisplay;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.17px;
+    text-align: left;
+    margin-left: 720px;
+    margin-top: -120px;
+    color: #ffff;
+}
+
+.yanach {
+    width: 50px;
+    height: 2px;
+    top: 3407px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #8643DC;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.sana3 {
+    margin-left: 1020px;
+    margin-top: -120px;
+    width: 107px;
+    height: 21px;
+    font-family: RedHatDisplay;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.17px;
+    text-align: left;
+    color: #ffff;
+}
+
+.oxiri {
+    width: 212px;
+    height: 46px;
+    font-family: RedHatDisplay-Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.46px;
+    text-align: left;
+    margin-left: 1020px;
+    margin-top: 10px;
+    color: #ffff;
+}
+
+.qusht {
+    margin-left: 600px;
+    margin-top: 350px;
+    position: absolute;
+}
+
+.xira {
+    margin-left: 160px;
+    position: absolute;
+    margin-top: 350px;
+}
+
+.tiniq {
+    margin-left: 550px;
+    margin-top: 590px;
+    position: absolute;
+}
+
+.CEO {
+    width: 89px;
+    height: 21px;
+    font-family: RedHatDisplay-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.17px;
+    text-align: left;
+    margin-left: 580px;
+    margin-top: 760px;
+    position: absolute;
+}
+
+.ism {
+    width: 110px;
+    height: 26px;
+    font-family: RedHatDisplay;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.46px;
+    text-align: center;
+    margin-left: 570px;
+    margin-top: 710px;
+    position: absolute;
+}
+
+.kups {
+    width: 569px;
+    height: 85px;
+    font-family: RedHatDisplay;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 420px;
+    position: absolute;
+    color: darkgrey;
+}
+
+.nuqta {
+    margin-left: 540px;
+    margin-top: 850px;
+    position: absolute;
+}
+
+.test {
+    width: 98px;
+    height: 24px;
+    font-family: RedHatDisplay-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.81px;
+    text-align: left;
+    color: #8643DC;
+    margin-left: 150px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.ders {
+    width: 67px;
+    height: 24px;
+    font-family: RedHatDisplay;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.ochsab {
+    width: 170px;
+    height: 170px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #FFEEC9;
+    box-shadow: #FFEEC9;
+    background-color: #FFEEC9;
+    margin-left: 760px;
+    margin-top: -170px;
+    cursor: pointer;
+}
+
+.medium {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.medum {
+    width: 67px;
+    height: 24px;
+    font-family: RedHatDisplay;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
+    margin-left: 55px;
+    margin-top: 5px;
+}
+
+.ochyash {
+    width: 170px;
+    height: 170px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #CAFFE1;
+    box-shadow: #CAFFE1;
+    background-color: #CAFFE1;
+    margin-left: 340px;
+    margin-top: -170px;
+    cursor: pointer;
+}
+
+.slac {
+    width: 44px;
+    height: 24px;
+    font-family: RedHatDisplay;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
+    margin-left: 63px;
+    margin-top: 10px;
+}
+
+.eh1 {
+    width: 140px;
+    height: 96px;
+    font-family: RedHatDisplay;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.63px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.kup2 {
+    width: 540px;
+    height: 427px;
+    margin-left: -40px;
+    margin-top: 100px;
+}
+
+.clients {
+    width: 55px;
+    height: 24px;
+    font-family: RedHatDisplay-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.81px;
+    text-align: left;
+    color: #8643DC;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.section8 {
+    width: 1300px;
+    height: 902px;
+    background: linear-gradient(180deg, rgba(187, 133, 255, 0.166) -8.54%, rgba(255, 244, 251, 0.2) 100%);
+    margin-top: 100px;
+}
+
+.cont {
+    width: 99px;
+    height: 24px;
+    font-family: RedHatDisplay-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.81px;
+    text-align: left;
+    color: #8643DC;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.a1 {
+    width: 223px;
+    height: 28px;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    color: #8643DC;
+    margin-left: 1000px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.input1 {
+    width: 1110px;
+    height: 44px;
+    background-color: transparent;
+    border: none;
+    margin-top: 400px;
+    position: absolute;
+    margin-left: 100px;
+    outline: none;
+    font-family: RedHatDisplay-Regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.46px;
+    text-align: left;
+}
+
+hr {
+    width: 1110px;
+    height: 1px;
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.hr2 {
+    width: 1110px;
+    height: 1px;
+    margin-top: 520px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.hr3 {
+    width: 1110px;
+    height: 1px;
+    margin-top: 590px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.input2 {
+    width: 1110px;
+    height: 44px;
+    background-color: transparent;
+    border: none;
+    margin-top: 470px;
+    position: absolute;
+    margin-left: 100px;
+    outline: none;
+    font-family: RedHatDisplay-Regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.46px;
+    text-align: left;
+}
+
+.bi-paperclip {
+    font-size: 37px;
+    width: 18px;
+    height: 18px;
+    margin-left: 1100px;
+    margin-top: -50px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.vector {
+    width: 50px;
+    height: 50px;
+    margin-left: 580px;
+}
+.instagram{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+.linked{
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+}
+.bi-arrow-right {
+    width: 30px;
+    height: 30px;
+    font-size: 35px;
+    color: #8643DC;
+    margin-left: 1140px;
+    position: absolute;
+    margin-top: -45px;
+    cursor: pointer;
+}
+
+.oxirgilardan {
+    width: 270px;
+    height: 48px;
+    font-family: RedHatDisplay;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 47.63px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.input3 {
+    width: 1110px;
+    height: 44px;
+    background-color: transparent;
+    border: none;
+    margin-top: 540px;
+    position: absolute;
+    margin-left: 100px;
+    outline: none;
+    font-family: RedHatDisplay-Regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.46px;
+    text-align: left;
+}
+
+.havas {
+    width: 512px;
+    height: 156px;
+    font-family: Roboto-Medium;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: left;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.div6 {
+    width: 50px;
+    height: 2px;
+    background: #8643DC;
+    margin-left: 105px;
+    margin-top: 130px;
+    position: absolute;
+}
+
+.section8_btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background: #8643DC;
+    font-family: RedHatDisplay;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffff;
+    margin-top: 650px;
+    margin-left: 100px;
+    transition: .5s;
+}
+
+.section8_btn:hover {
+    background-color: transparent;
+    transition: .5s;
+    border: 1px solid #8643DC;
+    color: #8643DC;
+}
+
+.menu {
+    font-size: 22px;
+}
+
+@media only screen and (max-width:980px) {
+    .item {
+        font-size: 17px;
+        margin-left: 50px;
+    }
+
+    .header_btn {
+        margin-left: 1000px;
+    }
+}
+
+@media only screen and (max-width:860px) {
+    .item {
+        gap: 40px;
+        font-size: 17px;
+        margin-left: 200px;
+    }
+
+    .header_btn {
+        margin-left: 900px;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .item {
+        gap: 50px;
+        font-size: 17px;
+        margin-left: 200px;
+    }
+
+    .header_btn {
+        margin-left: 800px;
+    }
+
+    .header_logo {
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:470px) {
+    .item {
+        display: none;
+    }
+
+    .header_btn {
+        margin-left: 500px;
+        display: block;
+        margin-top: -50px;
+    }
+
+    .header_logo {
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+
+    .header_logo {
+        margin-left: -20px;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .bg {
+        display: none;
+    }
+
+    h1 {
+        width: 300px;
+        font-size: 35px
+    }
+
+    .games {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_one_text {
+        margin-left: 300px;
+    }
+
+    h1 {
+        margin-left: 300px;
+    }
+
+    .main_two_text {
+        width: 300px;
+        margin-left: 300px;
+    }
+
+    .main_btn {
+        margin-left: 300px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .main_one_text {
+        margin-left: 170px;
+    }
+
+    h1 {
+        margin-left: 170px;
+    }
+
+    .main_two_text {
+        width: 300px;
+        margin-left: 170px;
+    }
+
+    .main_btn {
+        margin-left: 170px;
+    }
+}
+
+@media only screen and (max-width:670px) {
+    .q1 {
+        margin-left: 400px;
+    }
+
+    .q2 {
+        margin-left: 400px;
+    }
+
+    .q3 {
+        margin-top: 300px;
+    }
+
+    .q4 {
+        margin-top: 300px;
+        margin-left: -400px;
+    }
+
+    .gameloop {
+        margin-left: -100px;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .gameloop {
+        margin-left: -300px;
+    }
+
+    .big_text {
+        margin-left: 190px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:470px) {
+    .gameloop {
+        margin-left: -400px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .header_logo {
+        margin-left: 50px;
+    }
+
+    .header_btn {
+        margin-left: 430px;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    .kup1 {
+        margin-left: 350px;
+    }
+
+    .kup2 {
+        width: 540px;
+        height: 427px;
+        margin-top: 500px;
+        margin-left: -540px;
+        position: absolute;
+    }
+
+    .section_1_element {
+        width: 1300px;
+        height: 1100px;
+        margin-top: 100px;
+    }
+
+    .group1 {
+        margin-left: 450px;
+    }
+
+    .errow {
+
+        margin-left: -450px;
+        margin-top: 500px;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .section_1_element {
+        margin-left: -100px;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    .ochpush {
+        margin-left: 450px;
+    }
+
+    .ochkuk {
+        margin-top: 70px;
+        margin-left: 450px;
+    }
+
+    .ochsab {
+        margin-left: 680px;
+    }
+
+    .ochyash {
+        margin-left: 670px;
+    }
+
+    .ochyaash {
+        margin-left: 570px;
+        margin-top: 60px;
+    }
+
+    .medas {
+        margin-left: 500px;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    .section5 {
+        margin-left: -10px;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .section5 {
+        margin-left: -100px;
+    }
+}
